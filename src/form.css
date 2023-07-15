@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(230, 226, 221);
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 60vw;
+    height: 50vh;
+    background-color: rgb(238, 162, 148);
+    position: relative;
+    top: 30vh;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    color: rgb(33, 32, 32);
+    background-color: rgb(149, 124, 173);
+    
+}
+.inputfields {
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    position: relative;
+    left: 23vw;
+}
+input{
+    height: 5vh;
+    box-shadow: 3px 3px 10px 5px rgb(81, 117, 199);
+    background-color: rgb(109, 232, 193);
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+button{
+    width: 15vw;
+    height: 5vh;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(108, 117, 242);
+}
+.success-prompt {
+    width: 60vw;
+    height: 5vh;
+    background-color: rgb(225, 191, 191);
+    border: 2px solid rgb(4, 216, 82);
+    position: relative;
+    top: 28vh;
+    display: flex;
+    justify-content: center;
+}
+/* .success-div {
+    display: flex;
+    justify-content: center;
+} */
